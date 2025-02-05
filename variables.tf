@@ -17,3 +17,7 @@ variable "common_tags" {
     Terraform = "true"
   }
 }
+
+variable "vpc_tags" {
+  default = {}
+}
